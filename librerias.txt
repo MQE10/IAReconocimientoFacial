@@ -1,0 +1,8 @@
+Libreria utilizadas
+
+1.- https://www.python.org/downloads/release/python-3109/
+2.- pip install opencv-python
+3.- pip install matplotlib
+4.- pip install mtcnn
+5.- pip install tensorflow
+6.- pip install mysql-connector-python
