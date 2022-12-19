@@ -97,7 +97,7 @@ def register_capture():
     while True:
         ret, frame = cap.read()
         cv2.imshow("Registro Facial", frame)
-        if cv2.waitKey(1) == 27:
+        if cv2.waitKey(1) == ord('q'):
             break
     
     cv2.imwrite(img, frame)
@@ -147,7 +147,7 @@ def login_capture():
     while True:
         ret, frame = cap.read()
         cv2.imshow("Login Facial", frame)
-        if cv2.waitKey(1) == 27:
+        if cv2.waitKey(1) == ord('q'):
             break
     
     cv2.imwrite(img, frame)
